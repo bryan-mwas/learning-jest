@@ -15,7 +15,7 @@ function clearCityDatabase() {
     setTimeout(() => {
       cities = [];
       resolve();
-    }, 2000);
+    }, 1000);
   });
 }
 
@@ -28,7 +28,7 @@ beforeEach(() => {
 });
 
 afterEach(() => {
-  clearCityDatabase();
+  return clearCityDatabase();
 });
 
 test("city database has Vienna", () => {
