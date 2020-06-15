@@ -9,6 +9,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.10.1",
+    "@types/jest": "^26.0.0",
     "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }
